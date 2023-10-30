@@ -34,8 +34,8 @@ At the heart of Mawjat lies the decentralized music streaming mechanism. Music t
 - **Blockchain:** Leveraging NEAR Protocol (or whichever blockchain you're using) for transparent and secure transactions.
 - **Decentralized Music Streaming:** Offering a platform where artists' music is directly accessible to fans without intermediaries.
 - **NFT-Based Music Sales:** Enabling artists to mint their music as NFTs.
-- **Co-Ownership & Revenue Sharing: ** Ensuring fair revenue distribution among artists and stakeholders.
-- **Music Labs:  ** Promoting collaboration, networking, and skill enhancement while offering educational onboarding to web3.
+- **Co-Ownership & Revenue Sharing:** Ensuring fair revenue distribution among artists and stakeholders.
+- **Music Labs:** Promoting collaboration, networking, and skill enhancement while offering educational onboarding to web3.
 
 
 
