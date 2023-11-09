@@ -71,9 +71,11 @@ npm run start
 ## Environment Variables  
 
 To run this project, you will need to add the following environment variables to your .env file  
-`API_KEY`  
+`DATABASE` : mongodb database URI
 
-`ANOTHER_API_KEY` 
+`NODE_ENV` : development
+
+`JWT_SECRET` 
 
 
 
