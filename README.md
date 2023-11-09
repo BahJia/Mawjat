@@ -1,4 +1,4 @@
-# Mawjat: Decentralized Music Platform for MENA on NEAR Protocol
+# Mawjat: Decentralized Music Platform across the MENA and Beyond on NEAR Protocol
 ![App Screenshot](https://res.cloudinary.com/habibii/image/upload/v1699537938/Icone_z2h0qc.jpg)
 
 ## Badges  
