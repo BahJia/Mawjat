@@ -35,9 +35,11 @@ At the heart of Mawjat lies the decentralized music streaming mechanism. Music t
 
 - **Blockchain:** Leveraging NEAR Protocol (or whichever blockchain you're using) for transparent and secure transactions.
 - **Decentralized Music Streaming:** Offering a platform where artists' music is directly accessible to fans without intermediaries.
-- **NFT-Based Music Sales:** Enabling artists to mint their music as NFTs.
-- **Co-Ownership & Revenue Sharing:** Ensuring fair revenue distribution among artists and stakeholders.
+- **Live Feature:** utilizing dynamic NFTs for a changeable content creation including: live concert, live jam session, and Podcast.
+- **NFT-Based Music:** Enabling artists to mint their music as NFTs.
+- **Co-Ownership & Revenue Sharing:** Ensuring fair revenue distribution among artists and stakeholders through frictionalized NFTs.
 - **Music Labs:** Promoting collaboration, networking, and skill enhancement while offering educational onboarding to web3.
+- **Annual Music Festival:** a series of yearly festivals, started with Mawj Festival v1.0 on October 2023 in Berlin, 7 music acts and an audience of 300.
 
 ![App Screenshot](https://res.cloudinary.com/habibii/image/upload/v1699538123/Backround_image_kgqhnl.jpg)
 
