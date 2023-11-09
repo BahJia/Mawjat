@@ -29,7 +29,7 @@ Mawjat is a Web3 and Blockchain-based decentralized music platform targeting mus
 
 ![App Screenshot](https://res.cloudinary.com/habibii/image/upload/v1699538101/user_ubb3fx.jpg)
 
-At the heart of Mawjat lies the decentralized music streaming mechanism. Music tracks uploaded by artists are stored securely and made available for listeners worldwide. The integration with blockchain ensures that every stream and purchase is transparently recorded. Additionally, the platform supports NFT-Based Music Sales, allowing artists to mint and sell their music as unique digital assets.
+At the heart of Mawjat lies the decentralized music streaming mechanism. Music tracks uploaded by artists are stored securely and made available for listeners worldwide. The integration with blockchain ensures that every stream and purchase is transparently recorded. Additionally, the platform supports NFT-Based Music Sales, allowing artists to mint and sell their music as unique digital assets and co-own them with listeners to share revenue.
 ## Features  
 
 
