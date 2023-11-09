@@ -1,5 +1,5 @@
 # Mawjat: Decentralized Music Platform for MENA on NEAR Protocol
-![App Screenshot](https://res.cloudinary.com/habibii/image/upload/v1698632472/DALL_E_2023-10-30_03.20.56_-_Wide_panorama_of_a_music-centric_urban_park_where_Mawjat_hosts_a_global_music_fair_with_the_word_Mawjat_prominently_displayed_in_the_center_infu_agyofp.png)
+![App Screenshot](https://res.cloudinary.com/habibii/image/upload/v1699537938/Icone_z2h0qc.jpg)
 
 ## Badges  
 
@@ -25,7 +25,9 @@
 
 Mawjat is a Web3 and Blockchain-based decentralized music platform targeting musicians from the Middle East, North Africa, and Diaspora. This repository contains the core backend and frontend components of the platform.
 ## System Workflow 
-![App Screenshot](https://res.cloudinary.com/habibii/image/upload/v1698634926/Li_bdwaq9.jpg)
+![App Screenshot](https://res.cloudinary.com/habibii/image/upload/v1699538023/musician_ztgmcv.jpg)
+
+![App Screenshot](https://res.cloudinary.com/habibii/image/upload/v1699538101/user_ubb3fx.jpg)
 
 At the heart of Mawjat lies the decentralized music streaming mechanism. Music tracks uploaded by artists are stored securely and made available for listeners worldwide. The integration with blockchain ensures that every stream and purchase is transparently recorded. Additionally, the platform supports NFT-Based Music Sales, allowing artists to mint and sell their music as unique digital assets.
 ## Features  
@@ -37,7 +39,7 @@ At the heart of Mawjat lies the decentralized music streaming mechanism. Music t
 - **Co-Ownership & Revenue Sharing:** Ensuring fair revenue distribution among artists and stakeholders.
 - **Music Labs:** Promoting collaboration, networking, and skill enhancement while offering educational onboarding to web3.
 
-
+![App Screenshot](https://res.cloudinary.com/habibii/image/upload/v1699538123/Backround_image_kgqhnl.jpg)
 
 
 ## Run Locally  
