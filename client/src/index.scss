@@ -1,0 +1,51 @@
+:root {
+  --toastify-toast-width: 32rem;
+  --toastify-toast-min-height: 5.8rem;
+}
+
+*,
+*:link,
+*:visited {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  // I started project on 1920 screen and after i Bought macbook this fixed scaling issues
+  // I will fix it later
+  @media (max-width: 1440px) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif, monospace;
+  font-size: 16px;
+  color: #b3b3b3;
+  background-color: #000;
+}
+
+.h1 {
+  font-size: 3.6rem;
+  line-height: 1;
+  color: #fff;
+
+  padding-bottom: 1.6rem;
+}
+
+.h2 {
+  font-size: 2.4rem;
+  line-height: 1;
+  color: #fff;
+
+  margin-top: 3.2rem;
+  padding-bottom: 1.6rem;
+}
+
+button {
+  cursor: pointer;
+}
+

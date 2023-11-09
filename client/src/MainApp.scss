@@ -1,0 +1,13 @@
+.main-app {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr auto;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.vip {
+  background-image: url('https://images.unsplash.com/photo-1580628119872-27a3716cfa9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2942&q=80') !important;
+  background-size: cover !important;
+}

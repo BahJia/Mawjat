@@ -1,0 +1,173 @@
+.player {
+  min-height: 8.4rem;
+  margin-top: 1.2rem;
+  padding: 1.2rem 2.4rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  grid-column: 1/-1;
+
+  &__repeat {
+    color: #00df65 !important;
+  }
+
+  &__icons {
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+  }
+
+  svg {
+    font-size: 2.4rem;
+    color: #b3b3b3;
+    cursor: pointer;
+  }
+
+  &__icon-btn {
+    background-color: transparent;
+    border: 0;
+
+    display: flex;
+    align-items: center;
+
+    svg {
+      font-size: 3.2rem;
+      color: #FFF;
+      transform:scale(1.5)
+    }
+  }
+
+  &__range {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+
+    input[type="range"] {
+      width: 100%;
+    }
+
+    &-time {
+      font-size: 1.6rem;
+      width: 6rem;
+    }
+  }
+
+  &__song {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+
+    img {
+      border-radius: 3px;
+
+      height: 7.2rem;
+      width:  7.2rem;
+    }
+
+    &-context {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-name {
+      font-size: 1.8rem;
+      color: #fff;
+    }
+
+    &-artist,
+    &-artist:link,
+    &-artist:visited{
+      font-size: 1.4rem;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    &__like {
+      font-size: 3.2rem;
+      color: #0005eb;
+
+      &--active {
+        fill: #0005eb;
+      }
+    }
+  }
+
+  &__volume {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: .8rem;
+  }
+
+  &__note {
+    font-size: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1 / -1;
+  }
+}
+
+// Chrome and Safari
+input[type='range'] {
+  --range-progress: 100%;
+
+  --webkit-appearance: none;
+  position: relative;
+  background: #5d5d5d;
+  height: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type="range"]::before {
+  content: '';
+  width: var(--range-progress);
+  height: 4px;
+  background: #fff;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+input[type="range"]:hover::before {
+  background: #0005eb;
+}
+
+// - Circle
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="range"]:hover::-webkit-slider-thumb {
+  box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.spinner {
+  animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 180deg;
+  }
+}

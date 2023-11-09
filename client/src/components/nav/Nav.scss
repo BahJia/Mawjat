@@ -1,0 +1,70 @@
+.nav {
+  overflow: hidden;
+
+  height: 100%;
+  min-width: 36rem;
+  margin: 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  &__block {
+    background-color: #121212;
+    border-radius: 9px;
+
+    width: 100%;
+    display: block;
+    padding: .8rem;
+  }
+
+  &-link:link,
+  &-link:visited {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: inherit;
+
+    height: 4rem;
+    padding: .6rem 1.2rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+
+    svg {
+      font-size: 2.8rem;
+    }
+
+    a:link,
+    a:visited {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
+.connect-button {
+    padding: 10px 20px;
+    background-color: #00a2e3; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #0004eb; // Darker shade on hover
+    }
+
+    .icon {
+        margin-right: 10px;
+    }
+}
+
